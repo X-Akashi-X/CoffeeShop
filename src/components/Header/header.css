@@ -1,0 +1,27 @@
+header{
+    max-width: 1140px;
+    width: 100%;
+    margin: 20px auto 0 auto;
+}
+
+nav{
+    display: flex;
+}
+
+.names_container{
+    display: flex;
+    gap: 40px;
+    margin-left: -5px;
+}
+
+.nav_names{
+    color: white;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.logo_nav{
+    width: 30px;
+    bottom: 5px;
+    position: relative;
+}
