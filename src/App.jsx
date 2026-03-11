@@ -4,6 +4,7 @@ import products from "./data.json";
 import Header from "./components/Header/Header";
 import MainBgInfo from "./components/MainBgInfo/MainBgInfo";
 import About from "./components/About/About";
+import Products from "./components/Products/Products";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <MainBgInfo />
         <About />
+        <Products />
       </main>
     );
   }

@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./about.css";
 import BlackLogo from "../BlackLogo/BlackLogo";
+import products from "../../data.json";
 
 class About extends Component {
   render() {

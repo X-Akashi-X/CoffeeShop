@@ -1,0 +1,23 @@
+.products_best_cards {
+  padding: 30px 40px;
+  width: 290px;
+  height: auto;
+  background-color: #ffffff80;
+  border-radius: 5px;
+}
+
+.products_best_cards:last-child {
+    align-self: center;
+    padding: 51px 30px;
+}
+
+.products_best_img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.best_paragraphs {
+  float: right;
+  margin: 5px 0px;
+}
