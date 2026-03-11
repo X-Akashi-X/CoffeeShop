@@ -1,26 +1,41 @@
-*{
-    box-sizing: border-box;
-    font-family: "Merienda", cursive;
+* {
+  box-sizing: border-box;
+  font-family: "Merienda", cursive;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url('./assets/main_bg.jpg');
-    background-size: cover;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.logo_container{
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
+main {
+  overflow: hidden;
+  background-size: contain;
 }
 
-.bean_logo{
-    width: 40px;
+.set_bg_main {
+  background-image: url("./assets/main_bg.jpg");
 }
 
-.bean_line{
-    width: 70px;
+.set_bg_our {
+  background-image: url("./assets/our_bg.jpg");
+}
+
+.set_bg_pleasure {
+  background-image: url("./assets/pleasure_bg.jpg");
+}
+
+.logo_container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.bean_logo {
+  width: 40px;
+}
+
+.bean_line {
+  width: 70px;
 }

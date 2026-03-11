@@ -1,14 +1,14 @@
 .products_best_cards {
   padding: 30px 40px;
   width: 290px;
-  height: auto;
+  height: 310px;
   background-color: #ffffff80;
   border-radius: 5px;
 }
 
 .products_best_cards:last-child {
     align-self: center;
-    padding: 51px 30px;
+    padding: 50px 30px;
 }
 
 .products_best_img {

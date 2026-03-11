@@ -1,11 +1,11 @@
+nav{
+    display: flex;
+}
+
 header{
     max-width: 1140px;
     width: 100%;
     margin: 20px auto 0 auto;
-}
-
-nav{
-    display: flex;
 }
 
 .names_container{
@@ -14,7 +14,7 @@ nav{
     margin-left: -5px;
 }
 
-.nav_names{
+.nav_names_header{
     color: white;
     margin-bottom: 0;
     font-size: 13px;

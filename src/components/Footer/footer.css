@@ -1,0 +1,16 @@
+footer{
+    padding-top: 30px;
+    padding-bottom: 1px;
+    background-color: white;
+}
+
+footer nav{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.nav_names_footer{
+    color: black;
+    margin-bottom: 0;
+    font-size: 13px;
+}
