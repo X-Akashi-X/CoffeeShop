@@ -8,9 +8,8 @@ body {
   padding: 0;
 }
 
-main {
-  overflow: hidden;
-  background-size: contain;
+.cover{
+    background-size: cover;
 }
 
 .set_bg_main {
@@ -19,10 +18,12 @@ main {
 
 .set_bg_our {
   background-image: url("./assets/our_bg.jpg");
+  background-position: 50% 42%;
 }
 
 .set_bg_pleasure {
   background-image: url("./assets/pleasure_bg.jpg");
+  background-position: 50% 42%;
 }
 
 .logo_container {

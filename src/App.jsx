@@ -11,19 +11,21 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state ={
-      activeClass: 'set_bg_main'
+      activeClassBg: 'set_bg_main',
+      activeTabNav: 'CoffeeHouse'
     }
   }
 
-  handleChangeBg = (newClass) => {
-    this.setState({activeClass: newClass})
+  handleChange = (classBg, tabNav) => {
+    this.setState({activeClassBg: classBg})
+    this.setState({activeTabNav: tabNav})
   }
 
   render() {
     return (
-      <main className={this.state.activeClass}>
-        <Header changeBg={this.handleChangeBg}/>
-        <MainBgInfo />
+      <main>
+        <Header changeData={this.handleChange}/>
+        <MainBgInfo activeClassBg={this.state.activeClassBg} activeTabNav={this.state.activeTabNav}/>
         <About />
         <Products />
         <Footer />
