@@ -8,8 +8,8 @@ body {
   padding: 0;
 }
 
-.cover{
-    background-size: cover;
+.cover {
+  background-size: cover;
 }
 
 .set_bg_main {
@@ -18,7 +18,8 @@ body {
 
 .set_bg_our {
   background-image: url("./assets/our_bg.jpg");
-  background-position: 50% 42%;
+  background-position: 70% 42%;
+  background-size: 105%;
 }
 
 .set_bg_pleasure {
@@ -53,10 +54,34 @@ body {
   margin-left: -5px;
 }
 
-.flex{
-    display: flex;
+.max_width_about_house {
+  max-width: 508px;
 }
 
-.gap_beans_goods{
-    gap: 80px
+.max_width_about_beans {
+  max-width: 600px;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap_beans_goods {
+  gap: 55px;
+  align-items: center;
+}
+
+.long_line{
+    width: 190px;
+    height: 1px;
+    display: block;
+    margin: 40px auto 40px auto
+}
+
+.about_house_pd{
+    padding: 80px 0px;
+}
+
+.about_beans_pd{
+    padding-top: 80px
 }

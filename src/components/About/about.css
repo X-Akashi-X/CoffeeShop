@@ -1,10 +1,8 @@
 .about_main_container {
-  padding: 80px 0px;
   background-color: white;
 }
 
 .about_container {
-  max-width: 590px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -16,8 +14,8 @@
   margin-top: 0;
 }
 
-.about_content{
-    font-size: 14px;
+.about_content {
+  font-size: 11px;
 }
 
 .about_paragraph_1_mr {
@@ -25,12 +23,17 @@
 }
 
 .beans_img {
-  width: 450px;
+  width: 410px;
   height: auto;
-  clip-path: polygon(15% 0%, 65% 0%, 65% 100%, 15% 100%);
+  clip-path: polygon(
+  13% 0%,
+  80% 0%,
+  80% 100%,
+  13% 100%
+);
 }
 
-.beans_img_container{
-    overflow: hidden;
-    width: 200px;
+.beans_img_container {
+  overflow: hidden;
+  width: 435px;
 }
