@@ -26,7 +26,7 @@ class App extends Component {
       <main>
         <Header changeData={this.handleChange}/>
         <MainBgInfo activeClassBg={this.state.activeClassBg} activeTabNav={this.state.activeTabNav}/>
-        <About />
+        <About activeTabNav={this.state.activeTabNav}/>
         <Products />
         <Footer />
       </main>

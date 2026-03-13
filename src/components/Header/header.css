@@ -3,28 +3,14 @@ nav {
 }
 
 header {
-  max-width: 1140px;
   width: 100%;
-  margin: 30px auto 0 auto;
   position: absolute;
-  left: 0;
-  right: 0;
-}
-
-.names_container {
-  display: flex;
-  gap: 40px;
-  margin-left: -5px;
+  top: 30px;
+  left: 10%;
 }
 
 .nav_names_header {
   color: white;
   margin-bottom: 0;
-  font-size: 13px;
-}
-
-.logo_nav {
-  width: 30px;
-  bottom: 5px;
-  position: relative;
+  font-size: 10px;
 }

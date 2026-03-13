@@ -6,11 +6,11 @@ footer{
 
 footer nav{
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .nav_names_footer{
     color: black;
     margin-bottom: 0;
-    font-size: 13px;
+    font-size: 10px;
 }

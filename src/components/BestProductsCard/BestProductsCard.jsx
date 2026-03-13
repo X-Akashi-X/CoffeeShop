@@ -10,8 +10,8 @@ class BestProductsCard extends Component {
           return (
             <div className="products_best_cards">
               <img className="products_best_img" src={product.img} alt="" />
-              <p className="best_paragraphs">{product.title}</p>
-              <p className="best_paragraphs">{`${product.price}$`}</p>
+              <p className="best_content">{product.title}</p>
+              <p className="best_content">{`${product.price}$`}</p>
             </div>
           );
         })}
