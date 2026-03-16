@@ -1,21 +1,30 @@
-.products_best_main_conainer{
-    background-image: url('../../assets/best_bg.jpg');
+/*Best*/
+.products_best_main_container {
+  background-image: url("../../assets/best_bg.jpg");
 }
 
-.products_best_main__container{
-    padding: 110px 0px;
+.products_best_container {
+  padding: 70px 0px 90px 0px;
 }
 
-.products_title{
-    font-size: 19px;
-    margin-bottom: 40px;
-    margin-top: 0;
-    text-align: center;
+.products_best_title {
+  font-size: 19px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-align: center;
 }
 
-.products_cards_container{
-    display: flex;
-    gap: 90px;
-    justify-content: center;
-    align-items: center;
+.products_best_cards_container {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Default*/
+.products_default_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 70px;
 }
