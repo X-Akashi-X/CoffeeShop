@@ -1,0 +1,9 @@
+.products_default_cards {
+  padding: 30px 20px 10px 20px;
+  width: 165px;
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 4px 4px 20px -5px rgba(34, 60, 80, 0.6);
+  cursor: pointer;
+}

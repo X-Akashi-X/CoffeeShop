@@ -24,7 +24,8 @@ body {
 
 .set_bg_pleasure {
   background-image: url("./assets/pleasure_bg.jpg");
-  background-position: 50% 42%;
+  background-position: 70% 37%;
+  background-size: 100%;
 }
 
 .logo_container {
@@ -84,4 +85,16 @@ body {
 
 .about_beans_pd{
     padding-top: 80px
+}
+
+.products_img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.products_content {
+  text-align: right;
+  margin: 5px 0px;
+  font-size: 10px;
 }

@@ -24,7 +24,11 @@
 /*Default*/
 .products_default_container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 70px;
+  grid-template-columns: repeat(3, 165px);
+  grid-template-rows: repeat(2, auto);
+  gap: 50px;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }

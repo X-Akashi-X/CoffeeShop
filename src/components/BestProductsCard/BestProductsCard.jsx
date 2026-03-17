@@ -9,9 +9,9 @@ class BestProductsCard extends Component {
         {products.filter(product => product.best === true).map((product) => {
           return (
             <div className="products_best_cards">
-              <img className="products_best_img" src={product.img} alt="" />
-              <p className="best_content">{product.title}</p>
-              <p className="best_content">{`${product.price}$`}</p>
+              <img className="products_img" src={product.img} alt="" />
+              <p className="products_content">{product.title}</p>
+              <p className="products_content">{`${product.price}$`}</p>
             </div>
           );
         })}

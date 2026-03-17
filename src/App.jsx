@@ -12,7 +12,7 @@ class App extends Component {
     super(props)
     this.state ={
       activeClassBg: 'set_bg_main',
-      activeTabNav: 'OurCoffee'
+      activeTabNav: 'Pleasure'
     }
   }
 

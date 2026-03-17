@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./products.css";
 import BestProductsCard from "../BestProductsCard/BestProductsCard";
 import SearchBlock from "../SearchBlock/SearhBlock";
+import DeffaultCards from "../DefaultProductsCard/DefaultProductsCard";
 
 class Products extends Component {
   render() {
@@ -21,7 +22,7 @@ class Products extends Component {
           <>
             <SearchBlock />
             <div className="products_default_container">
-              
+              <DeffaultCards />
             </div>
           </>
         )}

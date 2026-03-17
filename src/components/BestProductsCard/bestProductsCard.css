@@ -10,15 +10,3 @@
     align-self: center;
     padding: 50px 30px;
 }
-
-.products_best_img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.best_content {
-  float: right;
-  margin: 5px 0px;
-  font-size: 10px;
-}
