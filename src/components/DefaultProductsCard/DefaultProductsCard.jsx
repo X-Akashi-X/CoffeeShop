@@ -4,6 +4,8 @@ import "./defaultProductsCard.css";
 
 class DeffaultCards extends Component {
   render() {
+    
+
     return (
       <>
         {products

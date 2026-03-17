@@ -18,9 +18,10 @@ class Products extends Component {
             </div>
           </div>
         )}
-        {this.props.activeTabNav === "OurCoffee" && (
+        {(this.props.activeTabNav === "OurCoffee" ||
+          this.props.activeTabNav === "Pleasure") && (
           <>
-            <SearchBlock />
+            {this.props.activeTabNav === "OurCoffee" ? <SearchBlock /> : null}
             <div className="products_default_container">
               <DeffaultCards />
             </div>

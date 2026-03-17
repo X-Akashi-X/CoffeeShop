@@ -12,7 +12,7 @@ class App extends Component {
     super(props)
     this.state ={
       activeClassBg: 'set_bg_main',
-      activeTabNav: 'Pleasure'
+      activeTabNav: 'OurCoffee'
     }
   }
 
@@ -21,14 +21,20 @@ class App extends Component {
     this.setState({activeTabNav: tabNav})
   }
 
+  handleFilter = (value) => {
+    products.filter(product => {
+      product.country === value
+    })
+  }
+
   render() {
     return (
-      <main>
+      <main id="start">
         <Header changeData={this.handleChange}/>
         <MainBgInfo activeClassBg={this.state.activeClassBg} activeTabNav={this.state.activeTabNav}/>
         <About activeTabNav={this.state.activeTabNav}/>
         <Products activeTabNav={this.state.activeTabNav}/>
-        <Footer />
+        <Footer changeData={this.handleChange}/>
       </main>
     );
   }

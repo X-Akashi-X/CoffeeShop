@@ -34,35 +34,35 @@ class About extends Component {
         )}
         {(this.props.activeTabNav === "OurCoffee" ||
           this.props.activeTabNav === "Pleasure") && (
-            <>
-              <div className="about_container max_width_about_beans flex gap_beans_goods about_beans_pd">
-                <div className="beans_img_container">
-                  {this.props.activeTabNav === "OurCoffee" ? (
-                    <img className="beans_img" src={Beans} alt="" />
-                  ) : (
-                    <img className="pleasure_img" src={Pleasure} alt="" />
-                  )}
-                </div>
-                <div>
-                  <p className="about_title">About our beans</p>
-                  <BlackLogo />
-                  <p className="about_content">
-                    Extremity sweetness difficult behaviour he of. On disposal
-                    of as landlord horrible.
-                  </p>
-                  <p className="about_content">
-                    Afraid at highly months do things on at. Situation recommend
-                    objection do intention<br></br>so questions.<br></br>As
-                    greatly removed calling pleased improve an.<br></br>Last ask
-                    him cold feel <br></br>met spot shy want. Children me
-                    laughing we prospect answered followed. At it went<br></br>
-                    is song that held help face.
-                  </p>
-                </div>
+          <>
+            <div className="about_container max_width_about_beans flex gap_beans_goods about_beans_pd">
+              <div className="beans_img_container">
+                {this.props.activeTabNav === "OurCoffee" ? (
+                  <img className="beans_img" src={Beans} alt="" />
+                ) : (
+                  <img className="pleasure_img" src={Pleasure} alt="" />
+                )}
               </div>
-              <img src={Line} className="long_line" alt="" />
-            </>
-          )}
+              <div>
+                <p className="about_title">About our beans</p>
+                <BlackLogo />
+                <p className="about_content">
+                  Extremity sweetness difficult behaviour he of. On disposal of
+                  as landlord horrible.
+                </p>
+                <p className="about_content">
+                  Afraid at highly months do things on at. Situation recommend
+                  objection do intention<br></br>so questions.<br></br>As
+                  greatly removed calling pleased improve an.<br></br>Last ask
+                  him cold feel <br></br>met spot shy want. Children me laughing
+                  we prospect answered followed. At it went<br></br>
+                  is song that held help face.
+                </p>
+              </div>
+            </div>
+            <img src={Line} className="long_line" alt="" />
+          </>
+        )}
       </div>
     );
   }
