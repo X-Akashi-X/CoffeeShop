@@ -1,12 +1,17 @@
 import { Component } from "react";
-import './filterButton.css'
+import "./filterButton.css";
 
 class FilterButton extends Component {
   render() {
-    return(
-      <button className="filter_button">{this.props.children}</button>
-    )
+    return (
+      <button
+        onClick={() => this.props.handleFilter(this.props.children)}
+        className="filter_button"
+      >
+        {this.props.children}
+      </button>
+    );
   }
 }
 
-export default FilterButton
+export default FilterButton;

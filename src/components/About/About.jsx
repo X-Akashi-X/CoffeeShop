@@ -6,7 +6,7 @@ import Beans from "../../assets/beans_img.jpg";
 import Pleasure from "../../assets/pleasure_img.jpg";
 import Line from "../../assets/line_long_black.svg";
 
-class About extends Component {
+class About extends Component { 
   render() {
     return (
       <div className="about_main_container">

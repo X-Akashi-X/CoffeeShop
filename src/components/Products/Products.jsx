@@ -21,9 +21,15 @@ class Products extends Component {
         {(this.props.activeTabNav === "OurCoffee" ||
           this.props.activeTabNav === "Pleasure") && (
           <>
-            {this.props.activeTabNav === "OurCoffee" ? <SearchBlock /> : null}
+            {this.props.activeTabNav === "OurCoffee" ? (
+              <SearchBlock
+                handleFilter={this.props.handleFilter}
+                handleSearch={this.props.handleSearch}
+                searchTerm={this.props.searchTerm}
+              />
+            ) : null}
             <div className="products_default_container">
-              <DeffaultCards />
+              <DeffaultCards filteredItems={this.props.filteredItems} />
             </div>
           </>
         )}

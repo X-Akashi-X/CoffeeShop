@@ -3,18 +3,21 @@
     "title": "Solimo Coffee Beans 2 kg",
     "price": 10.73,
     "img": "/Solimo.jpg",
+    "country": "Colubmia",
     "best": true
   },
   {
     "title": "Presto Coffee Beans 1 kg",
     "price": 15.99,
     "img": "/Presto.jpg",
+    "country": "Kenya",
     "best": true
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
+    "country": "Brazil",
     "best": true
   },
 
@@ -37,7 +40,7 @@
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
-    "country": "C-olumbia",
+    "country": "Columbia",
     "best": false
   },
   {

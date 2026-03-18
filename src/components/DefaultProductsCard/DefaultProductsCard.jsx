@@ -4,11 +4,9 @@ import "./defaultProductsCard.css";
 
 class DeffaultCards extends Component {
   render() {
-    
-
     return (
       <>
-        {products
+        {this.props.filteredItems
           .filter((product) => product.best === false)
           .map((product) => {
             return (
