@@ -72,6 +72,10 @@ body {
   max-width: 600px;
 }
 
+.max_width_about_beans{
+  max-width: 760px;
+}
+
 .flex {
   display: flex;
 }
@@ -79,6 +83,10 @@ body {
 .gap_beans_goods {
   gap: 55px;
   align-items: center;
+}
+
+.gap_about_it{
+  gap: 30px
 }
 
 .long_line{

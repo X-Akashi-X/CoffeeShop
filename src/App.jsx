@@ -41,6 +41,12 @@ class App extends Component {
     this.setState({ searchTerm: value, filteredItems: filtered });
   };
 
+  handleTakeAboutIt = (product, classBg, tabNav) => {
+    const filtered = products.filter((item) => item.id === product.id);
+    this.setState({ filteredItems: filtered });
+    this.handleChange(classBg, tabNav);
+  };
+
   render() {
     return (
       <main id="start">
@@ -49,13 +55,18 @@ class App extends Component {
           activeClassBg={this.state.activeClassBg}
           activeTabNav={this.state.activeTabNav}
         />
-        <About activeTabNav={this.state.activeTabNav} />
+        <About
+          activeTabNav={this.state.activeTabNav}
+          filteredItems={this.state.filteredItems}
+        />
         <Products
           activeTabNav={this.state.activeTabNav}
           filteredItems={this.state.filteredItems}
           handleFilter={this.handleFilter}
           handleSearch={this.handleSearch}
           searchTerm={this.state.searchTerm}
+          handleChange={this.handleChange}
+          handleTakeAboutIt={this.handleTakeAboutIt}
         />
         <Footer changeData={this.handleChange} />
       </main>

@@ -10,7 +10,12 @@ class DeffaultCards extends Component {
           .filter((product) => product.best === false)
           .map((product) => {
             return (
-              <div className="products_default_cards">
+              <div
+                onClick={() =>
+                  this.props.handleTakeAboutIt(product, 'set_bg_our', 'aboutIt')
+                }
+                className="products_default_cards"
+              >
                 <img className="products_img" src={product.img} alt="" />
                 <p className="products_content">{product.title}</p>
                 <p className="products_content">{product.country}</p>

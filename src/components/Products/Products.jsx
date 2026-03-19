@@ -2,7 +2,7 @@ import { Component } from "react";
 import "./products.css";
 import BestProductsCard from "../BestProductsCard/BestProductsCard";
 import SearchBlock from "../SearchBlock/SearhBlock";
-import DeffaultCards from "../DefaultProductsCard/DefaultProductsCard";
+import DeffaultProductsCard from "../DefaultProductsCard/DefaultProductsCard";
 
 class Products extends Component {
   render() {
@@ -29,7 +29,11 @@ class Products extends Component {
               />
             ) : null}
             <div className="products_default_container">
-              <DeffaultCards filteredItems={this.props.filteredItems} />
+              <DeffaultProductsCard
+                filteredItems={this.props.filteredItems}
+                handleChange={this.props.handleChange}
+                handleTakeAboutIt={this.props.handleTakeAboutIt}
+              />
             </div>
           </>
         )}

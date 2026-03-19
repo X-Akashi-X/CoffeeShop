@@ -25,10 +25,12 @@ class MainBgInfo extends Component {
           </div>
         )}
         {(this.props.activeTabNav === "OurCoffee" ||
-          this.props.activeTabNav === "Pleasure") && (
+          this.props.activeTabNav === "Pleasure" ||
+          this.props.activeTabNav === "aboutIt") && (
           <div className={`${this.props.activeClassBg} cover`}>
             <div className="main_bg_info_container main_pd_our_pleasure">
-              {this.props.activeTabNav === "OurCoffee" ? (
+              {this.props.activeTabNav === "OurCoffee" ||
+              this.props.activeTabNav === "aboutIt" ? (
                 <p className="main_bg_title">Our Coffee</p>
               ) : (
                 <p className="main_bg_title">For your pleasure</p>

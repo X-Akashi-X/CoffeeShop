@@ -1,12 +1,12 @@
 import { Component } from "react";
 import "./about.css";
 import BlackLogo from "../BlackLogo/BlackLogo";
-import products from "../../data.json";
 import Beans from "../../assets/beans_img.jpg";
 import Pleasure from "../../assets/pleasure_img.jpg";
 import Line from "../../assets/line_long_black.svg";
+import HotFix from "../../assets/AboutAromistico.png";
 
-class About extends Component { 
+class About extends Component {
   render() {
     return (
       <div className="about_main_container">
@@ -61,6 +61,37 @@ class About extends Component {
               </div>
             </div>
             <img src={Line} className="long_line" alt="" />
+          </>
+        )}
+        {this.props.activeTabNav === "aboutIt" && (
+          <>
+            {this.props.filteredItems.map((product) => (
+              <div className="about_container max_width_about_beans flex gap_about_it about_beans_pd">
+                <div className="about_img_container">
+                  <img className="about_it_img" src={product.imgAbout} alt="" />
+                </div>
+                <div>
+                  <p className="about_title">About it</p>
+                  <BlackLogo />
+                  <div className="about_it_content_container">
+                    <p className="about_content">
+                      <strong>Country:</strong> {product.country}
+                    </p>
+                    <p className="about_content">
+                      <strong>Description:</strong> {product.description}
+                    </p>
+                    <p className="about_content">
+                      <strong>
+                        Price: 
+                        <span
+                          style={{ fontSize: "14px" }}
+                        >{` ${product.price}$`}</span>
+                      </strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </>
         )}
       </div>

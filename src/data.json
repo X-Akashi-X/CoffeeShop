@@ -21,47 +21,64 @@
     "best": true
   },
 
-
   {
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Brazil",
-    "best": false
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": false,
+    "id": "1"
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Kenya",
-    "best": false
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": false,
+    "id": "2"
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Columbia",
-    "best": false
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": false,
+    "id": "3"
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Brazil",
-    "best": false
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": false,
+    "id": "4"
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Brazil",
-    "best": false
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": false,
+    "id": "5"
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Brazil",
-    "best": false
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": false,
+    "id": "6"
   }
 ]
