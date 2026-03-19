@@ -20,7 +20,14 @@ class MainBgInfo extends Component {
                 We makes every day full of energy and taste
               </p>
               <p className="main_bg_content">Want to try our beans?</p>
-              <button className="more_button">More</button>
+              <button
+                onClick={() =>
+                  this.props.handleChange("set_bg_our", "OurCoffee")
+                }
+                className="more_button"
+              >
+                More
+              </button>
             </div>
           </div>
         )}

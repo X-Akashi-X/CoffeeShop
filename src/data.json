@@ -3,22 +3,31 @@
     "title": "Solimo Coffee Beans 2 kg",
     "price": 10.73,
     "img": "/Solimo.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Colubmia",
-    "best": true
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": true,
+    "id": 1
   },
   {
     "title": "Presto Coffee Beans 1 kg",
     "price": 15.99,
     "img": "/Presto.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Kenya",
-    "best": true
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": true,
+    "id": 2
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
     "price": 6.99,
     "img": "/Aromistico.jpg",
+    "imgAbout": "./AboutAromistico.png",
     "country": "Brazil",
-    "best": true
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "best": true,
+    "id": 3
   },
 
   {
@@ -29,7 +38,7 @@
     "country": "Brazil",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "best": false,
-    "id": "1"
+    "id": 4
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
@@ -39,7 +48,7 @@
     "country": "Kenya",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "best": false,
-    "id": "2"
+    "id": 5
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
@@ -49,7 +58,7 @@
     "country": "Columbia",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "best": false,
-    "id": "3"
+    "id": 6
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
@@ -59,7 +68,7 @@
     "country": "Brazil",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "best": false,
-    "id": "4"
+    "id": 7
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
@@ -69,7 +78,7 @@
     "country": "Brazil",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "best": false,
-    "id": "5"
+    "id": 8
   },
   {
     "title": "AROMISTICO Coffee 1 kg",
@@ -79,6 +88,6 @@
     "country": "Brazil",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "best": false,
-    "id": "6"
+    "id": 9
   }
 ]

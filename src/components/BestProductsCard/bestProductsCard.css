@@ -4,6 +4,7 @@
   height: 210px;
   background-color: #ffffff80;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .products_best_cards:last-child {

@@ -12,7 +12,7 @@ class App extends Component {
     super(props);
     this.state = {
       activeClassBg: "set_bg_main",
-      activeTabNav: "OurCoffee",
+      activeTabNav: "CoffeeHouse",
       filteredItems: products,
       activeFilter: null,
       searchTerm: "",
@@ -20,8 +20,10 @@ class App extends Component {
   }
 
   handleChange = (classBg, tabNav) => {
-    this.setState({ activeClassBg: classBg });
-    this.setState({ activeTabNav: tabNav });
+    this.setState({
+      activeClassBg: classBg,
+      activeTabNav: tabNav,
+    });
   };
 
   handleFilter = (type) => {
@@ -47,13 +49,19 @@ class App extends Component {
     this.handleChange(classBg, tabNav);
   };
 
+  handleClearAndChange = (classBg, tabNav) => {
+    this.setState({filteredItems: products})
+    this.handleChange(classBg, tabNav)
+  }
+
   render() {
     return (
       <main id="start">
-        <Header changeData={this.handleChange} />
+        <Header handleClearAndChange={this.handleClearAndChange} />
         <MainBgInfo
           activeClassBg={this.state.activeClassBg}
           activeTabNav={this.state.activeTabNav}
+          handleChange={this.handleChange}
         />
         <About
           activeTabNav={this.state.activeTabNav}
@@ -68,7 +76,7 @@ class App extends Component {
           handleChange={this.handleChange}
           handleTakeAboutIt={this.handleTakeAboutIt}
         />
-        <Footer changeData={this.handleChange} />
+        <Footer handleClearAndChange={this.handleClearAndChange} />
       </main>
     );
   }

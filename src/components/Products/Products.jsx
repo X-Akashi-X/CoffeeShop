@@ -13,7 +13,10 @@ class Products extends Component {
             <div className="products_best_container">
               <p className="products_best_title">Our best</p>
               <div className="products_best_cards_container">
-                <BestProductsCard />
+                <BestProductsCard
+                  handleTakeAboutIt={this.props.handleTakeAboutIt}
+                  filteredItems={this.props.filteredItems}
+                />
               </div>
             </div>
           </div>

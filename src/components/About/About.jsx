@@ -4,7 +4,6 @@ import BlackLogo from "../BlackLogo/BlackLogo";
 import Beans from "../../assets/beans_img.jpg";
 import Pleasure from "../../assets/pleasure_img.jpg";
 import Line from "../../assets/line_long_black.svg";
-import HotFix from "../../assets/AboutAromistico.png";
 
 class About extends Component {
   render() {
@@ -66,7 +65,7 @@ class About extends Component {
         {this.props.activeTabNav === "aboutIt" && (
           <>
             {this.props.filteredItems.map((product) => (
-              <div className="about_container max_width_about_beans flex gap_about_it about_beans_pd">
+              <div className="about_container max_width_about_it flex gap_about_it about_beans_pd">
                 <div className="about_img_container">
                   <img className="about_it_img" src={product.imgAbout} alt="" />
                 </div>
@@ -82,7 +81,7 @@ class About extends Component {
                     </p>
                     <p className="about_content">
                       <strong>
-                        Price: 
+                        Price:
                         <span
                           style={{ fontSize: "14px" }}
                         >{` ${product.price}$`}</span>
