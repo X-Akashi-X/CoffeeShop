@@ -1,6 +1,6 @@
 import { Component } from "react";
-import Line from "../../assets/line_black.svg";
-import Logo from "../../assets/logo_black.svg";
+import Line from "@assets/icons/line_black.svg";
+import Logo from "@assets/icons/logo_black.svg";
 
 class BlackLogo extends Component {
   render() {

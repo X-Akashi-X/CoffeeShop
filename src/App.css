@@ -21,17 +21,17 @@ body {
 }
 
 .set_bg_main {
-  background-image: url("./assets/main_bg.jpg");
+  background-image: url("./assets/images/main_bg.jpg");
 }
 
 .set_bg_our {
-  background-image: url("./assets/our_bg.jpg");
+  background-image: url("./assets/images/our_bg.jpg");
   background-position: 70% 42%;
   background-size: 105%;
 }
 
 .set_bg_pleasure {
-  background-image: url("./assets/pleasure_bg.jpg");
+  background-image: url("./assets/images/pleasure_bg.jpg");
   background-position: 70% 37%;
   background-size: 100%;
 }

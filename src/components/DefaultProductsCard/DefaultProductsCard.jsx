@@ -1,6 +1,5 @@
 import { Component } from "react";
-import products from "../../data.json";
-import "./defaultProductsCard.css";
+import "./DefaultProductsCard.css";
 
 class DeffaultCards extends Component {
   render() {

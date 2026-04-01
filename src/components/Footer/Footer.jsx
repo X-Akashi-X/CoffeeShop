@@ -1,6 +1,6 @@
 import { Component } from "react";
-import Logo from "../../assets/logo_nav_black.svg";
-import "./footer.css";
+import Logo from "@assets/icons/logo_nav_black.svg";
+import "./Footer.css";
 import BlackLogo from "../BlackLogo/BlackLogo";
 
 class Footer extends Component {

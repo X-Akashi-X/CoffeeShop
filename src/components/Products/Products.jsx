@@ -1,7 +1,7 @@
 import { Component } from "react";
-import "./products.css";
+import "./Products.css";
 import BestProductsCard from "../BestProductsCard/BestProductsCard";
-import SearchBlock from "../SearchBlock/SearhBlock";
+import SearchBlock from "../SearchBlock/SearchBlock";
 import DeffaultProductsCard from "../DefaultProductsCard/DefaultProductsCard";
 
 class Products extends Component {

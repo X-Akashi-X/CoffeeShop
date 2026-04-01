@@ -1,9 +1,9 @@
 import { Component } from "react";
-import "./about.css";
+import "./About.css";
 import BlackLogo from "../BlackLogo/BlackLogo";
-import Beans from "../../assets/beans_img.jpg";
-import Pleasure from "../../assets/pleasure_img.jpg";
-import Line from "../../assets/line_long_black.svg";
+import Beans from "@assets/images/beans_img.jpg";
+import Pleasure from "@assets/images/pleasure_img.jpg";
+import Line from "@assets/icons/line_long_black.svg";
 
 class About extends Component {
   render() {

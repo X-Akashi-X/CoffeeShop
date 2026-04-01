@@ -1,7 +1,7 @@
 import { Component } from "react";
-import "./mainBgInfo.css";
-import Logo from "../../assets/logo_white.svg";
-import Line from "../../assets/line_white.svg";
+import "./MainBgInfo.css";
+import Logo from "@assets/icons/logo_white.svg";
+import Line from "@assets/icons/line_white.svg";
 
 class MainBgInfo extends Component {
   render() {

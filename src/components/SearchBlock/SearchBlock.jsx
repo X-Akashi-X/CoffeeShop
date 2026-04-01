@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./searchBlock.css";
+import "./SearchBlock.css";
 import FilterButton from "../FIlterButton/FilterButton";
 
 class SearchBlock extends Component {
