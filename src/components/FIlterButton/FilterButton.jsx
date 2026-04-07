@@ -1,17 +1,14 @@
-import { Component } from "react";
 import "./FilterButton.css";
 
-class FilterButton extends Component {
-  render() {
-    return (
-      <button
-        onClick={() => this.props.handleFilter(this.props.children)}
-        className="filter_button"
-      >
-        {this.props.children}
-      </button>
-    );
-  }
-}
+const FilterButton = ({handleFilter, activeFilter, children}) => {
+  return (
+    <button
+      onClick={() => handleFilter(children)}
+      className={activeFilter === children ? "filter_button active_filter" : "filter_button"}
+    >
+      {children}
+    </button>
+  );
+};
 
 export default FilterButton;

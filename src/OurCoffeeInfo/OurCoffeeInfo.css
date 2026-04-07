@@ -1,0 +1,5 @@
+.set_bg_our {
+  background-image: url("../assets/images/our_bg.jpg");
+  background-position: 70% 42%;
+  background-size: 105%;
+}

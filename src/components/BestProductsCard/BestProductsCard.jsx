@@ -1,31 +1,27 @@
-import { Component } from "react";
+import { useContext } from "react";
 import "./BestProductsCard.css";
+import { Context } from "@context/FilteredItemsContext";
+import { Link } from "react-router-dom";
 
-class BestProductsCard extends Component {
-  render() {
-    return (
-      <>
-        {this.props.filteredItems
-          .filter((product) => product.best === true)
-          .map((product) => {
-            return (
-              <div
-                onClick={() => this.props.handleTakeAboutIt(
-                  product,
-                  "set_bg_our",
-                  "aboutIt",
-                )}
-                className="products_best_cards"
-              >
+const BestProductsCard = () => {
+  const { filteredItems } = useContext(Context);
+  return (
+    <>
+      {filteredItems
+        .filter((product) => product.best === true)
+        .map((product) => {
+          return (
+            <Link to={"/OurCoffee/product/" + product.id}>
+              <div className="products_best_cards">
                 <img className="products_img" src={product.img} alt="" />
                 <p className="products_content">{product.title}</p>
                 <p className="products_content">{`${product.price}$`}</p>
               </div>
-            );
-          })}
-      </>
-    );
-  }
-}
+            </Link>
+          );
+        })}
+    </>
+  );
+};
 
 export default BestProductsCard;

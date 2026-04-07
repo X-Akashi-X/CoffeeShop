@@ -5,6 +5,7 @@
   background-color: #ffffff80;
   border-radius: 5px;
   cursor: pointer;
+  color: black;
 }
 
 .products_best_cards:last-child {

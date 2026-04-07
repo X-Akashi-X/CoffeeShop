@@ -3,11 +3,11 @@
   font-family: "Merienda", cursive;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -18,22 +18,6 @@ body {
 
 .cover {
   background-size: cover;
-}
-
-.set_bg_main {
-  background-image: url("./assets/images/main_bg.jpg");
-}
-
-.set_bg_our {
-  background-image: url("./assets/images/our_bg.jpg");
-  background-position: 70% 42%;
-  background-size: 105%;
-}
-
-.set_bg_pleasure {
-  background-image: url("./assets/images/pleasure_bg.jpg");
-  background-position: 70% 37%;
-  background-size: 100%;
 }
 
 .logo_container {
@@ -64,44 +48,15 @@ body {
   margin-left: -5px;
 }
 
-.max_width_about_house {
-  max-width: 465px;
-}
-
-.max_width_about_beans {
-  max-width: 600px;
-}
-
-.max_width_about_it{
-  max-width: 760px;
-}
-
 .flex {
   display: flex;
 }
 
-.gap_beans_goods {
-  gap: 55px;
-  align-items: center;
-}
-
-.gap_about_it{
-  gap: 30px
-}
-
-.long_line{
-    width: 190px;
-    height: 1px;
-    display: block;
-    margin: 40px auto 40px auto
-}
-
-.about_house_pd{
-    padding: 80px 0px;
-}
-
-.about_beans_pd{
-    padding-top: 80px
+.long_line {
+  width: 190px;
+  height: 1px;
+  display: block;
+  margin: 40px auto 40px auto;
 }
 
 .products_img {
@@ -114,4 +69,57 @@ body {
   text-align: right;
   margin: 5px 0px;
   font-size: 10px;
+}
+
+.main_bg_title {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.main_bg_info_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.main_pd_our_pleasure {
+  padding-bottom: 55px;
+  padding-top: 100px;
+}
+
+.about_container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about_title {
+  font-size: 19px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.about_content {
+  font-size: 11px;
+}
+
+.about_img_container {
+  overflow: hidden;
+  width: 435px;
+}
+
+.max_width_about_beans_pleasure {
+  max-width: 600px;
+}
+
+.gap_beans_goods {
+  gap: 55px;
+  align-items: center;
+}
+
+.about_beans_pleasure_pd {
+  padding-top: 50px;
 }

@@ -1,46 +1,41 @@
-import { Component } from "react";
 import Logo from "@assets/icons/logo_nav_white.svg";
 import "./Header.css";
+import { NavLink } from "react-router-dom";
 
-class Header extends Component {
-  render() {
-    return (
-      <header>
-        <nav>
-          <img src={Logo} className="logo_nav" alt="" />
-          <div className="names_container">
-            <a
-              href="#start"
-              className="nav_names_header"
-              onClick={() =>
-                this.props.handleClearAndChange("set_bg_main", "CoffeeHouse")
-              }
-            >
-              Coffee house
-            </a>
-            <a
-              href="#start"
-              className="nav_names_header"
-              onClick={() =>
-                this.props.handleClearAndChange("set_bg_our", "OurCoffee")
-              }
-            >
-              Our coffee
-            </a>
-            <a
-              href="#start"
-              className="nav_names_header"
-              onClick={() =>
-                this.props.handleClearAndChange("set_bg_pleasure", "Pleasure")
-              }
-            >
-              For your pleasure
-            </a>
-          </div>
-        </nav>
-      </header>
-    );
-  }
-}
+const Header = () => {
+  return (
+    <header>
+      <nav>
+        <img src={Logo} className="logo_nav" alt="" />
+        <div className="names_container">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "nav_names_header active_link" : "nav_names_header"
+            }
+          >
+            Coffee house
+          </NavLink>
+          <NavLink
+            to="/OurCoffee"
+            className={({ isActive }) =>
+              isActive ? "nav_names_header active_link" : "nav_names_header"
+            }
+          >
+            Our coffee
+          </NavLink>
+          <NavLink
+            to="/Pleasure"
+            className={({ isActive }) =>
+              isActive ? "nav_names_header active_link" : "nav_names_header"
+            }
+          >
+            For your pleasure
+          </NavLink>
+        </div>
+      </nav>
+    </header>
+  );
+};
 
 export default Header;

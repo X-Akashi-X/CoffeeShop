@@ -1,0 +1,7 @@
+.pleasure_img {
+  width: 210px;
+  height: auto;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 83%, 0% 83%);
+  position: relative;
+  top: 30px;
+}

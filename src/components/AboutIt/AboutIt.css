@@ -1,0 +1,21 @@
+.about_it_content_container {
+  text-align: left;
+}
+
+.about_it_img_container {
+  overflow: hidden;
+  width: 1600px;
+}
+
+.about_it_img {
+  width: 360px;
+  clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 18% 100%);
+}
+
+.max_width_about_it {
+  max-width: 760px;
+}
+
+.gap_about_it {
+  gap: 30px;
+}
