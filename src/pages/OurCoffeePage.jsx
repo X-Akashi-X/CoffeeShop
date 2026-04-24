@@ -4,7 +4,7 @@ import DefaultProducts from "../components/DefaultProducts/DefaultProducts";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import SearchBlock from "../components/SearchBlock/SearchBlock";
-import OurCoffeeInfo from "../OurCoffeeInfo/OurCoffeeInfo";
+import OurCoffeeInfo from "../components/OurCoffeeInfo/OurCoffeeInfo";
 
 const OurCoffePage = () => {
   const { id } = useParams();
