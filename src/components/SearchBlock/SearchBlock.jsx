@@ -1,4 +1,4 @@
-import "./SearchBlock.css";
+import "./searchBlock.css";
 import FilterButton from "../FIlterButton/FilterButton";
 import products from '@assets/data.json';
 import { useContext, useState } from "react";

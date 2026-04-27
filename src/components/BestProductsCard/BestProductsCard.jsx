@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import "./BestProductsCard.css";
+import "./bestProductsCard.css";
 import { Context } from "@context/FilteredItemsContext";
 import { Link } from "react-router-dom";
 

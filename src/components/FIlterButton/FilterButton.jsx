@@ -1,4 +1,4 @@
-import "./FilterButton.css";
+import "./filterButton.css";
 
 const FilterButton = ({handleFilter, activeFilter, children}) => {
   return (

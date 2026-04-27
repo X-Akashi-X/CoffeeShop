@@ -1,5 +1,5 @@
 import Logo from "@assets/icons/logo_nav_black.svg";
-import "./Footer.css";
+import "./footer.css";
 import BlackLogo from "../BlackLogo/BlackLogo";
 import { NavLink } from "react-router-dom";
 
