@@ -9,3 +9,6 @@ https://www.figma.com/design/Iu4Lul87WvzdM5CXFwE4qtZ6/Coffee-shop?node-id=4-379&
 
 ## Description
 Project coffee shop with 3 pages and interactive interface(filter, search and current products)
+
+## PageApp
+https://coffeeshopbyakashi.netlify.app
